@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore
 
 import 'package:flutter/material.dart';
+import 'package:aula/next..dart';
 
 void main() {
   runApp(
@@ -21,6 +22,19 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Aplicativo de treino'),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                return const NextPage();
+              }));
+            },
+            icon: const Icon(
+              Icons.keyboard_arrow_right,
+              size: 40,
+            ),
+          ),
+        ],
         backgroundColor: Colors.black,
         shadowColor: Colors.red,
       ),
