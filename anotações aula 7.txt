@@ -1,0 +1,40 @@
+run app roda o map, que espera um widget 
+adicionar um constructor para a classe homepage.
+@override ->sobre escreve o metodo
+
+MaterialPageRouter retorna a pagina
+
+Sempre que falar que é uma function já cria um metodo anonimo () {}
+
+Navigator para navegação
+MaterialPageRoute para navegar entre as paginas do proprio arquivo 
+o parametro builder espera uma função
+
+leading
+
+É uma boa pratica criar uma pasta chamada core dentro de lib com todas as imagens convertidas em variaveis do tipo string 
+
+Para adicionar uma fonte no flutter
+- descomentar a parte do fonts no pubspec.yaml
+- Colocar o nome da familia da fonteem family dentro do fonts no pubspec.yaml
+- criar uma pasta dentro de assets chamada fonts
+- extrair os arquivos para a pasta fonts 
+- colocar o caminho no pubspec.yaml
+
+Extracao
+
+Criar uma pasta chamada presenter (vão ficar todas as paginas do app)
+Dentro de presenter tem uma pasta para cada pagina
+Toda pasta da page tera uma pagina chamada widgets
+dentro da pasta widget tera um arquivo .dart chamado body
+Toda pasta tera um page e um body
+ctrl . 
+extract widget
+
+Regra de nomeação de extração de widgets 
+O que ele é?
+Do que ele é?
+Onde ele fica? (ou caracteristica muito especifica)
+F2 renomeia nossa lista em todos os lugares
+
+
